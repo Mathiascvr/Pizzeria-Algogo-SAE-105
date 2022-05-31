@@ -1,0 +1,196 @@
+.entete{
+    display: flex;
+    border: solid black;
+    background-color: white;
+    padding-top: 3px;
+}
+
+.horaire{
+    width: 350px;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+.logopizza{
+    display: flex;
+    justify-content: center;
+    height: 10em;
+    font-size: 1.2em;
+    padding-left: 100px;
+}
+
+.logopizza > a > img{
+    width: 190px;
+    height: auto;
+}
+
+.tel{
+    display: flex;
+    justify-content: right;
+    height: 10em;
+    font-size: 0.2em;
+    margin-right: 10px;
+    width: 300px;
+    
+}
+
+.num{
+    font-size: 6em;
+    color:green
+}
+
+.video{
+    width: 100%;
+    height: auto;
+}
+
+.menu{
+    background-color: red;
+    list-style: none;
+    display: flex;
+    padding: auto; margin: auto;
+    justify-content: space-around;
+    padding: 0px;
+}
+li {
+    padding: 20px;
+    display: inline;
+    width: 33.33%;
+    text-align: center;
+    
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+}
+
+ul > li:hover {
+    background-color: green;
+}
+
+
+.effectif{
+    width: 50%;
+    height: auto;
+}
+.equipe1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#equipe, #specialite, #contacter{
+    color: red;
+    text-align: center;
+}
+
+
+.pizza{
+    display: flex;
+    justify-content:space-around ;
+    
+    
+}
+
+h3{
+    text-align: center;
+}
+
+.equipe1 > div > h3 {
+    color: green;
+}
+
+
+.table1>table, .table2>table {
+    border: solid;
+}
+
+.pizza > .table1 > h3, .pizza > .table2 > h3, #formule > h3 {
+    color: green;
+}
+
+.spe>p{
+    text-align: center;
+}
+
+.enfant{
+    text-align: center;
+}
+
+.formule{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#formule{
+    border: solid;
+    padding-inline: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.spe{
+    border: solid;
+}
+
+.personnel{
+    border: solid;
+    margin-bottom: 15px;
+    margin-top:15px
+}
+
+.reseau{
+    width: 50px;
+}
+.contact{
+    
+    color: white;
+    padding-inline: 30px;
+    text-align: center;
+    display: flex;
+}
+
+.cadre{
+    border: solid red 5px;
+    width: 450px;
+    height: 260px;
+    
+}
+
+.contact>div{
+    background: green;
+    padding-inline: 10px;
+    width: 450px;
+    height: 300px;
+    margin-left: -1065px;
+    margin-top: 55px;
+    color: white;
+}
+
+.contacter>.cadre{
+    margin-left: 40px;
+    margin-top: 100px;
+
+}
+.contacter{
+    display: flex;
+    justify-content: center;
+}
+.contacter>img{
+    margin-left: -10px;
+    width: 45%;
+    height: 45%;
+}
+
+.fondgris{
+    background: rgb(202, 202, 202);
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    text-align: right;
+}
